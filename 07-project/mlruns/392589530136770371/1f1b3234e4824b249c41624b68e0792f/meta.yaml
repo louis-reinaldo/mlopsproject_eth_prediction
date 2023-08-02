@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/1f1b3234e4824b249c41624b68e0792f/artifacts
+end_time: 1690377891428
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 1f1b3234e4824b249c41624b68e0792f
+run_name: skillful-sponge-851
+run_uuid: 1f1b3234e4824b249c41624b68e0792f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377891347
+status: 3
+tags: []
+user_id: LouisReinaldo

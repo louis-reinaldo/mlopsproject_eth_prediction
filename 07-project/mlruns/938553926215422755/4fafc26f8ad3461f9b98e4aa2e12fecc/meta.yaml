@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/4fafc26f8ad3461f9b98e4aa2e12fecc/artifacts
+end_time: 1690379134211
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 4fafc26f8ad3461f9b98e4aa2e12fecc
+run_name: receptive-wren-161
+run_uuid: 4fafc26f8ad3461f9b98e4aa2e12fecc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690379129946
+status: 3
+tags: []
+user_id: LouisReinaldo

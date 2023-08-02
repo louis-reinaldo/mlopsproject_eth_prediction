@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/141110e254c048c4b2e0032550b5283b/artifacts
+end_time: 1690380792751
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 141110e254c048c4b2e0032550b5283b
+run_name: suave-lynx-802
+run_uuid: 141110e254c048c4b2e0032550b5283b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380790790
+status: 3
+tags: []
+user_id: LouisReinaldo

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/a7538999909040e5b07b39c4c676506d/artifacts
+end_time: 1690377891967
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: a7538999909040e5b07b39c4c676506d
+run_name: skillful-mole-767
+run_uuid: a7538999909040e5b07b39c4c676506d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377891891
+status: 3
+tags: []
+user_id: LouisReinaldo

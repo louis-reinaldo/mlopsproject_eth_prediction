@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/6fbd641ccb6d498982ec38b5cbea1d98/artifacts
+end_time: 1690377962851
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 6fbd641ccb6d498982ec38b5cbea1d98
+run_name: adaptable-smelt-168
+run_uuid: 6fbd641ccb6d498982ec38b5cbea1d98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377962799
+status: 3
+tags: []
+user_id: LouisReinaldo

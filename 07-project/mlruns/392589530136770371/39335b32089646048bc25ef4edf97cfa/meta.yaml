@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/39335b32089646048bc25ef4edf97cfa/artifacts
+end_time: 1690377961648
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 39335b32089646048bc25ef4edf97cfa
+run_name: languid-bear-340
+run_uuid: 39335b32089646048bc25ef4edf97cfa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377961536
+status: 3
+tags: []
+user_id: LouisReinaldo

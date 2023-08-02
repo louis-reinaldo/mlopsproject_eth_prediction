@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/4119cd19cde14c2a9b4ab0e7d7aaf412/artifacts
+end_time: 1690380786669
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 4119cd19cde14c2a9b4ab0e7d7aaf412
+run_name: rebellious-ray-551
+run_uuid: 4119cd19cde14c2a9b4ab0e7d7aaf412
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380784562
+status: 3
+tags: []
+user_id: LouisReinaldo

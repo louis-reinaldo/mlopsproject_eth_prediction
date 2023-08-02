@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/7814cc818c34470e8345524e0a0dd717/artifacts
+end_time: 1690377962675
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 7814cc818c34470e8345524e0a0dd717
+run_name: treasured-mink-567
+run_uuid: 7814cc818c34470e8345524e0a0dd717
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377962638
+status: 3
+tags: []
+user_id: LouisReinaldo

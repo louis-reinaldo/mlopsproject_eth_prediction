@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/a42b6e9bcbae4d318c9b09e91410ca22/artifacts
+end_time: 1690384262333
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: a42b6e9bcbae4d318c9b09e91410ca22
+run_name: adorable-penguin-258
+run_uuid: a42b6e9bcbae4d318c9b09e91410ca22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384258574
+status: 3
+tags: []
+user_id: LouisReinaldo

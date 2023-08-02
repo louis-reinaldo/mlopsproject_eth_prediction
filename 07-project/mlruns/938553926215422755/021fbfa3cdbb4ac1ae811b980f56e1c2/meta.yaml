@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/021fbfa3cdbb4ac1ae811b980f56e1c2/artifacts
+end_time: 1690384493327
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 021fbfa3cdbb4ac1ae811b980f56e1c2
+run_name: clean-trout-525
+run_uuid: 021fbfa3cdbb4ac1ae811b980f56e1c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384489624
+status: 3
+tags: []
+user_id: LouisReinaldo

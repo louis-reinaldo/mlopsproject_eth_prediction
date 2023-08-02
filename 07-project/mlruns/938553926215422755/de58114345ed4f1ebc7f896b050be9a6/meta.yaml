@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/de58114345ed4f1ebc7f896b050be9a6/artifacts
+end_time: 1690302102890
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: de58114345ed4f1ebc7f896b050be9a6
+run_name: welcoming-lamb-370
+run_uuid: de58114345ed4f1ebc7f896b050be9a6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690302102880
+status: 4
+tags: []
+user_id: LouisReinaldo

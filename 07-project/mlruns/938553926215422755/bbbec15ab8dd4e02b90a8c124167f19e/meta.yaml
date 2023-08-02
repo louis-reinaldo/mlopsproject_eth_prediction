@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/bbbec15ab8dd4e02b90a8c124167f19e/artifacts
+end_time: 1690384222800
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: bbbec15ab8dd4e02b90a8c124167f19e
+run_name: victorious-gnat-749
+run_uuid: bbbec15ab8dd4e02b90a8c124167f19e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384219165
+status: 3
+tags: []
+user_id: LouisReinaldo

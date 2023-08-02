@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/213c2baa28a741a0aab437b73371dd68/artifacts
+end_time: 1690384466270
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 213c2baa28a741a0aab437b73371dd68
+run_name: burly-panda-772
+run_uuid: 213c2baa28a741a0aab437b73371dd68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384461385
+status: 3
+tags: []
+user_id: LouisReinaldo

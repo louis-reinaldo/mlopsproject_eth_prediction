@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/2829c75cee7d481fbb69f0219bd2a6d1/artifacts
+end_time: 1690380882232
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 2829c75cee7d481fbb69f0219bd2a6d1
+run_name: defiant-owl-321
+run_uuid: 2829c75cee7d481fbb69f0219bd2a6d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380879712
+status: 3
+tags: []
+user_id: LouisReinaldo

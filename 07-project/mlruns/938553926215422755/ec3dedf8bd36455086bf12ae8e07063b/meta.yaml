@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/ec3dedf8bd36455086bf12ae8e07063b/artifacts
+end_time: 1690384478180
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: ec3dedf8bd36455086bf12ae8e07063b
+run_name: entertaining-ox-232
+run_uuid: ec3dedf8bd36455086bf12ae8e07063b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384474355
+status: 3
+tags: []
+user_id: LouisReinaldo

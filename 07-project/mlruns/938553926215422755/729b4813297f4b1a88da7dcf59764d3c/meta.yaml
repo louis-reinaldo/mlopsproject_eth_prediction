@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/729b4813297f4b1a88da7dcf59764d3c/artifacts
+end_time: 1690378886956
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 729b4813297f4b1a88da7dcf59764d3c
+run_name: bustling-skink-496
+run_uuid: 729b4813297f4b1a88da7dcf59764d3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690378885035
+status: 3
+tags: []
+user_id: LouisReinaldo

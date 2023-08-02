@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/0411cc2d3fc9499a9fd376fcd0e6570f/artifacts
+end_time: 1690304513789
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 0411cc2d3fc9499a9fd376fcd0e6570f
+run_name: zealous-flea-211
+run_uuid: 0411cc2d3fc9499a9fd376fcd0e6570f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304513719
+status: 3
+tags: []
+user_id: LouisReinaldo

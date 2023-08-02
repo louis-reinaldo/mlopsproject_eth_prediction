@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/114ced2ceec24f05b63be7baa13c5f0e/artifacts
+end_time: 1690380790784
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 114ced2ceec24f05b63be7baa13c5f0e
+run_name: righteous-stoat-32
+run_uuid: 114ced2ceec24f05b63be7baa13c5f0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380788739
+status: 3
+tags: []
+user_id: LouisReinaldo

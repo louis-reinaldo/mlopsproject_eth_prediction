@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/75ca92b5b3614c71bc9ee88234317691/artifacts
+end_time: 1690377961914
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 75ca92b5b3614c71bc9ee88234317691
+run_name: dapper-snake-641
+run_uuid: 75ca92b5b3614c71bc9ee88234317691
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377961854
+status: 3
+tags: []
+user_id: LouisReinaldo

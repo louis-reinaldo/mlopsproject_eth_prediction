@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/7434d766412c46458ed18f337cfcf2de/artifacts
+end_time: 1690384470374
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 7434d766412c46458ed18f337cfcf2de
+run_name: rogue-roo-677
+run_uuid: 7434d766412c46458ed18f337cfcf2de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384466278
+status: 3
+tags: []
+user_id: LouisReinaldo

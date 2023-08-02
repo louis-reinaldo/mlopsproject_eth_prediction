@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/58ef297792ae440f910bf9aeb944a311/artifacts
+end_time: 1690304570328
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 58ef297792ae440f910bf9aeb944a311
+run_name: wise-trout-897
+run_uuid: 58ef297792ae440f910bf9aeb944a311
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304570234
+status: 3
+tags: []
+user_id: LouisReinaldo

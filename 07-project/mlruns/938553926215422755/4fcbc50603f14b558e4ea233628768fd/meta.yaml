@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/4fcbc50603f14b558e4ea233628768fd/artifacts
+end_time: 1690300740952
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 4fcbc50603f14b558e4ea233628768fd
+run_name: angry-horse-433
+run_uuid: 4fcbc50603f14b558e4ea233628768fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690300740724
+status: 4
+tags: []
+user_id: LouisReinaldo

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/d0eb0f9dc73f44e8b6543b4e07bf2b84/artifacts
+end_time: 1690380901985
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: d0eb0f9dc73f44e8b6543b4e07bf2b84
+run_name: angry-grub-760
+run_uuid: d0eb0f9dc73f44e8b6543b4e07bf2b84
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380900009
+status: 3
+tags: []
+user_id: LouisReinaldo

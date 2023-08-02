@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/9522938f78ce4178872e353f27e628d4/artifacts
+end_time: 1690384207174
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 9522938f78ce4178872e353f27e628d4
+run_name: burly-koi-376
+run_uuid: 9522938f78ce4178872e353f27e628d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384203455
+status: 3
+tags: []
+user_id: LouisReinaldo

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/653317ab9b954c82bbce94816293d649/artifacts
+end_time: 1690377961529
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 653317ab9b954c82bbce94816293d649
+run_name: flawless-goose-383
+run_uuid: 653317ab9b954c82bbce94816293d649
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377961454
+status: 3
+tags: []
+user_id: LouisReinaldo

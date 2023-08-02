@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/d57425b5f62048bbb2c54f08c3244651/artifacts
+end_time: 1690304571770
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: d57425b5f62048bbb2c54f08c3244651
+run_name: enthused-ape-134
+run_uuid: d57425b5f62048bbb2c54f08c3244651
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304571685
+status: 3
+tags: []
+user_id: LouisReinaldo

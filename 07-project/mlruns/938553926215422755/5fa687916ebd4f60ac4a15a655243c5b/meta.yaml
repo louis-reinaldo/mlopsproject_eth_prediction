@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/5fa687916ebd4f60ac4a15a655243c5b/artifacts
+end_time: 1690384210943
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 5fa687916ebd4f60ac4a15a655243c5b
+run_name: suave-cub-285
+run_uuid: 5fa687916ebd4f60ac4a15a655243c5b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384207186
+status: 3
+tags: []
+user_id: LouisReinaldo

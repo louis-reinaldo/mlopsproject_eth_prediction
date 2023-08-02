@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/8a679e7c0dd345479c10b60782c43fbc/artifacts
+end_time: 1690304513481
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 8a679e7c0dd345479c10b60782c43fbc
+run_name: clean-wolf-316
+run_uuid: 8a679e7c0dd345479c10b60782c43fbc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304513398
+status: 3
+tags: []
+user_id: LouisReinaldo

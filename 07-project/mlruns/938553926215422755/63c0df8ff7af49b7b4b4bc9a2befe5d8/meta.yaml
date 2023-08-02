@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/63c0df8ff7af49b7b4b4bc9a2befe5d8/artifacts
+end_time: 1690380813060
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 63c0df8ff7af49b7b4b4bc9a2befe5d8
+run_name: mysterious-koi-580
+run_uuid: 63c0df8ff7af49b7b4b4bc9a2befe5d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380811211
+status: 3
+tags: []
+user_id: LouisReinaldo

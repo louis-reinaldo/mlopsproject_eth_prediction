@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/21e46356c73f4b53ae9ced6a4fc8dab3/artifacts
+end_time: 1690384429191
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 21e46356c73f4b53ae9ced6a4fc8dab3
+run_name: lyrical-turtle-189
+run_uuid: 21e46356c73f4b53ae9ced6a4fc8dab3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384425425
+status: 3
+tags: []
+user_id: LouisReinaldo

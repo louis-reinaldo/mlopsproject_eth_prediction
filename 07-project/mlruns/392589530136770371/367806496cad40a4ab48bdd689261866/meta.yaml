@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/367806496cad40a4ab48bdd689261866/artifacts
+end_time: 1690377891805
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 367806496cad40a4ab48bdd689261866
+run_name: able-mule-497
+run_uuid: 367806496cad40a4ab48bdd689261866
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377891749
+status: 3
+tags: []
+user_id: LouisReinaldo

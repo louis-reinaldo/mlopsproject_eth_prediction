@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/a84ded2cd05c4f9bb0b39748531dd01c/artifacts
+end_time: 1690377962335
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: a84ded2cd05c4f9bb0b39748531dd01c
+run_name: abrasive-slug-431
+run_uuid: a84ded2cd05c4f9bb0b39748531dd01c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377962224
+status: 3
+tags: []
+user_id: LouisReinaldo

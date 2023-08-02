@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/234cd0a48a524ab9911aad6edcacacdb/artifacts
+end_time: 1690377892616
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 234cd0a48a524ab9911aad6edcacacdb
+run_name: unleashed-doe-428
+run_uuid: 234cd0a48a524ab9911aad6edcacacdb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377892578
+status: 3
+tags: []
+user_id: LouisReinaldo

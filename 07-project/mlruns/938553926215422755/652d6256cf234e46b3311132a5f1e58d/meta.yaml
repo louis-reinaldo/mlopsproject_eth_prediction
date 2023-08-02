@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/652d6256cf234e46b3311132a5f1e58d/artifacts
+end_time: 1690380884545
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 652d6256cf234e46b3311132a5f1e58d
+run_name: unruly-wren-175
+run_uuid: 652d6256cf234e46b3311132a5f1e58d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380882241
+status: 3
+tags: []
+user_id: LouisReinaldo

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/61e6e2b2767d4d2cbcd9570e2a620f6b/artifacts
+end_time: 1690379420014
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 61e6e2b2767d4d2cbcd9570e2a620f6b
+run_name: skillful-gnat-443
+run_uuid: 61e6e2b2767d4d2cbcd9570e2a620f6b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690379417633
+status: 3
+tags: []
+user_id: LouisReinaldo

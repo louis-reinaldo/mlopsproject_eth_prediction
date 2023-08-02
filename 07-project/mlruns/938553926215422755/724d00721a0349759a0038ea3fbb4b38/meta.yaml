@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/724d00721a0349759a0038ea3fbb4b38/artifacts
+end_time: 1690379411098
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 724d00721a0349759a0038ea3fbb4b38
+run_name: bouncy-fox-738
+run_uuid: 724d00721a0349759a0038ea3fbb4b38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690379409206
+status: 3
+tags: []
+user_id: LouisReinaldo

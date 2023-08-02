@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/acccc7038cfd4935b550e3ada48e6121/artifacts
+end_time: 1690377891884
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: acccc7038cfd4935b550e3ada48e6121
+run_name: omniscient-shrew-216
+run_uuid: acccc7038cfd4935b550e3ada48e6121
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377891811
+status: 3
+tags: []
+user_id: LouisReinaldo

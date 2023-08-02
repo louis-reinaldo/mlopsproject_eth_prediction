@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/7f9237f4aa1643bd919fb6dbae452d9f/artifacts
+end_time: 1690377961847
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 7f9237f4aa1643bd919fb6dbae452d9f
+run_name: enthused-dove-678
+run_uuid: 7f9237f4aa1643bd919fb6dbae452d9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377961777
+status: 3
+tags: []
+user_id: LouisReinaldo

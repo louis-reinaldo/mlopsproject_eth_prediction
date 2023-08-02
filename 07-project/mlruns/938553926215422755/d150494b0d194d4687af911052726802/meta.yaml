@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/d150494b0d194d4687af911052726802/artifacts
+end_time: 1690378888892
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: d150494b0d194d4687af911052726802
+run_name: bright-stork-149
+run_uuid: d150494b0d194d4687af911052726802
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690378886961
+status: 3
+tags: []
+user_id: LouisReinaldo

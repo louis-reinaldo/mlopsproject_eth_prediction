@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/7e82090fb5b44da5bdca37532942fc94/artifacts
+end_time: 1690384203449
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 7e82090fb5b44da5bdca37532942fc94
+run_name: treasured-duck-818
+run_uuid: 7e82090fb5b44da5bdca37532942fc94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384199288
+status: 3
+tags: []
+user_id: LouisReinaldo

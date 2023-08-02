@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/1b0a2698e4a7455b86019c50d1951b0d/artifacts
+end_time: 1690377892571
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 1b0a2698e4a7455b86019c50d1951b0d
+run_name: salty-shrike-82
+run_uuid: 1b0a2698e4a7455b86019c50d1951b0d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377892502
+status: 3
+tags: []
+user_id: LouisReinaldo

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/dffbcbd297b945548ae0bd5d2c748db3/artifacts
+end_time: 1690379414898
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: dffbcbd297b945548ae0bd5d2c748db3
+run_name: rogue-grub-459
+run_uuid: dffbcbd297b945548ae0bd5d2c748db3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690379413009
+status: 3
+tags: []
+user_id: LouisReinaldo

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/1fd7f9a43d554814a1ba360d3bec6355/artifacts
+end_time: 1690377962219
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 1fd7f9a43d554814a1ba360d3bec6355
+run_name: luxuriant-fish-291
+run_uuid: 1fd7f9a43d554814a1ba360d3bec6355
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377962166
+status: 3
+tags: []
+user_id: LouisReinaldo

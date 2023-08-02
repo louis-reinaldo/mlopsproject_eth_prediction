@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/c42b24953e2a4242b86b75068380e981/artifacts
+end_time: 1690378874811
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: c42b24953e2a4242b86b75068380e981
+run_name: caring-lamb-373
+run_uuid: c42b24953e2a4242b86b75068380e981
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690378872958
+status: 3
+tags: []
+user_id: LouisReinaldo

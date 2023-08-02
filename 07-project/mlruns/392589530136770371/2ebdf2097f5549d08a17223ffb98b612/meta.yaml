@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/2ebdf2097f5549d08a17223ffb98b612/artifacts
+end_time: 1690377891336
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 2ebdf2097f5549d08a17223ffb98b612
+run_name: marvelous-bass-984
+run_uuid: 2ebdf2097f5549d08a17223ffb98b612
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377891249
+status: 3
+tags: []
+user_id: LouisReinaldo

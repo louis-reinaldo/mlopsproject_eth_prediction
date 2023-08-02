@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/b75395d0dd544025b101311ce4c168e0/artifacts
+end_time: 1690380903950
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: b75395d0dd544025b101311ce4c168e0
+run_name: victorious-panda-781
+run_uuid: b75395d0dd544025b101311ce4c168e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380901990
+status: 3
+tags: []
+user_id: LouisReinaldo

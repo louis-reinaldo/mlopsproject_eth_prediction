@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/de9cf761120c4f2abe659647cbc51481/artifacts
+end_time: 1690380900003
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: de9cf761120c4f2abe659647cbc51481
+run_name: intrigued-chimp-630
+run_uuid: de9cf761120c4f2abe659647cbc51481
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380897815
+status: 3
+tags: []
+user_id: LouisReinaldo

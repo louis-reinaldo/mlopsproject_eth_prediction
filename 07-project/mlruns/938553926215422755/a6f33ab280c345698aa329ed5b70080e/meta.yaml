@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/a6f33ab280c345698aa329ed5b70080e/artifacts
+end_time: 1690304513135
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: a6f33ab280c345698aa329ed5b70080e
+run_name: valuable-moose-676
+run_uuid: a6f33ab280c345698aa329ed5b70080e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304513064
+status: 3
+tags: []
+user_id: LouisReinaldo

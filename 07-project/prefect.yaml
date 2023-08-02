@@ -1,0 +1,92 @@
+# Welcome to your prefect.yaml file! You can you this file for storing and managing
+# configuration for deploying your flows. We recommend committing this file to source
+# control along with your flow code.
+
+# Generic metadata about this project
+name: 07-project
+prefect-version: 2.11.1
+
+# build section allows you to manage and build docker images
+build:
+
+# push section allows you to manage if and how this project is uploaded to remote locations
+push:
+
+# pull section allows you to provide instructions for cloning this project in remote locations
+pull:
+- prefect.deployments.steps.set_working_directory:
+    directory: /Users/LouisReinaldo/Documents/mlops-zoomcamp-1/07-project
+
+# the deployments section allows you to provide configuration for deploying flows
+deployments:
+- name: train_deployment
+  version:
+  tags: [mlzoomcamp_project]
+  description: flow to read data and train baseline model
+  entrypoint: train.py:train_flow
+  parameters: {}
+  work_pool:
+    name: eth-prediction-pool
+    work_queue_name: eth-prediction-queue
+    job_variables: {}
+  schedule:
+    cron: 3 * * * *
+    anchor_date: '2023-07-29T13:26:27.901753+00:00'
+    timezone: Singapore
+    day_or: = true
+- name: register_model_deployment
+  version:
+  tags: [mlzoomcamp_project]
+  description: Save to model registry and save to pickle as backup
+  entrypoint: register_model.py:register_model_flow
+  parameters: {}
+  work_pool:
+    name: eth-prediction-pool
+    work_queue_name: eth-prediction-queue
+    job_variables: {}
+  schedule:
+    cron: 13 0 * * *
+    timezone: Singapore
+    day_or: true
+- name: data_preparation_deployment
+  version:
+  tags: [mlzoomcamp_project]
+  description:
+  entrypoint: load_save_data.py:data_preparation
+  parameters: {}
+  work_pool:
+    name: eth-prediction-pool
+    work_queue_name: eth-prediction-queue
+    job_variables: {}
+  schedule:
+    cron: 0 0 * * *
+    timezone: Singapore
+    day_or: true
+- name: hpo_deployment
+  version:
+  tags: [mlzoomcamp_project]
+  description: Main flow for Hyperparameter optimization
+  entrypoint: hpo.py:hpo_flow
+  parameters: {}
+  work_pool:
+    name: eth-prediction-pool
+    work_queue_name: eth-prediction-queue
+    job_variables: {}
+  schedule:
+    cron: 5 0 * * *
+    timezone: Singapore
+    day_or: true
+- name: train_model_deployment
+  version:
+  tags: []
+  description: flow to read data and train baseline model
+  entrypoint: train.py:train_flow
+  parameters: {}
+  work_pool:
+    name: eth-prediction-pool
+    work_queue_name:
+    job_variables: {}
+  schedule:
+    cron: 3 0 * * *
+    timezone: Singapore
+    day_or: true

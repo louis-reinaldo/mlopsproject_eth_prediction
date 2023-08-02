@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/0ab697d1de5f40e1a5a3aea0e8a1664a/artifacts
+end_time: 1690304512525
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 0ab697d1de5f40e1a5a3aea0e8a1664a
+run_name: bald-robin-777
+run_uuid: 0ab697d1de5f40e1a5a3aea0e8a1664a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304512196
+status: 3
+tags: []
+user_id: LouisReinaldo

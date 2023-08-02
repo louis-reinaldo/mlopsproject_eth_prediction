@@ -1,0 +1,6 @@
+{
+  "data-preparation": "load_save_data.py:data_preparation",
+  "hpo-flow": "hpo.py:hpo_flow",
+  "register-model-flow": "register_model.py:register_model_flow",
+  "train-flow": "train.py:train_flow"
+}

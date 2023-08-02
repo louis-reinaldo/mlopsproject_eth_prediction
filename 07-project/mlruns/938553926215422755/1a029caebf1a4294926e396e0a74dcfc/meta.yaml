@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/1a029caebf1a4294926e396e0a74dcfc/artifacts
+end_time: 1690384489618
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 1a029caebf1a4294926e396e0a74dcfc
+run_name: awesome-turtle-491
+run_uuid: 1a029caebf1a4294926e396e0a74dcfc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384485784
+status: 3
+tags: []
+user_id: LouisReinaldo

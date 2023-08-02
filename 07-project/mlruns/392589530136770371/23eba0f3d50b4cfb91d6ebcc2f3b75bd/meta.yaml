@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/23eba0f3d50b4cfb91d6ebcc2f3b75bd/artifacts
+end_time: 1690377962439
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 23eba0f3d50b4cfb91d6ebcc2f3b75bd
+run_name: bold-grouse-377
+run_uuid: 23eba0f3d50b4cfb91d6ebcc2f3b75bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377962368
+status: 3
+tags: []
+user_id: LouisReinaldo

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/70d37efbb5bc4dccbf05e8d5cece7307/artifacts
+end_time: 1690384226561
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 70d37efbb5bc4dccbf05e8d5cece7307
+run_name: traveling-wasp-632
+run_uuid: 70d37efbb5bc4dccbf05e8d5cece7307
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384222805
+status: 3
+tags: []
+user_id: LouisReinaldo

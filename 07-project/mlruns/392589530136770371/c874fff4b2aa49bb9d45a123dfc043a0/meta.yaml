@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/c874fff4b2aa49bb9d45a123dfc043a0/artifacts
+end_time: 1690304570900
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: c874fff4b2aa49bb9d45a123dfc043a0
+run_name: delicate-snail-599
+run_uuid: c874fff4b2aa49bb9d45a123dfc043a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304570861
+status: 3
+tags: []
+user_id: LouisReinaldo

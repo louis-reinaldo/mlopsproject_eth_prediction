@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/1ee886a124fc4a068eb7c7ec98030d87/artifacts
+end_time: 1690304514367
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 1ee886a124fc4a068eb7c7ec98030d87
+run_name: bald-dog-456
+run_uuid: 1ee886a124fc4a068eb7c7ec98030d87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304514286
+status: 3
+tags: []
+user_id: LouisReinaldo

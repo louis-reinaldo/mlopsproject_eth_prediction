@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/cacabcd2869346948f28d937f011da46/artifacts
+end_time: 1690377892723
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: cacabcd2869346948f28d937f011da46
+run_name: mysterious-rat-28
+run_uuid: cacabcd2869346948f28d937f011da46
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377892680
+status: 3
+tags: []
+user_id: LouisReinaldo

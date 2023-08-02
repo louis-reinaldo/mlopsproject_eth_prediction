@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/e37c27ba36a44d238d7030cb7b2b52a7/artifacts
+end_time: 1690377891573
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: e37c27ba36a44d238d7030cb7b2b52a7
+run_name: upset-wren-61
+run_uuid: e37c27ba36a44d238d7030cb7b2b52a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377891508
+status: 3
+tags: []
+user_id: LouisReinaldo

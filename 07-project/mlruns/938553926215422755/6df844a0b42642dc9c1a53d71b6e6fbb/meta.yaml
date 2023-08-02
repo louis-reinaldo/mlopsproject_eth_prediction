@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/6df844a0b42642dc9c1a53d71b6e6fbb/artifacts
+end_time: 1690380803387
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 6df844a0b42642dc9c1a53d71b6e6fbb
+run_name: grandiose-squid-771
+run_uuid: 6df844a0b42642dc9c1a53d71b6e6fbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380801442
+status: 3
+tags: []
+user_id: LouisReinaldo

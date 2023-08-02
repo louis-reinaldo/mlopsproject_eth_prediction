@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/5a23badf2ab24144b94e0c5617fc833d/artifacts
+end_time: 1690377962533
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 5a23badf2ab24144b94e0c5617fc833d
+run_name: merciful-donkey-353
+run_uuid: 5a23badf2ab24144b94e0c5617fc833d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377962462
+status: 3
+tags: []
+user_id: LouisReinaldo

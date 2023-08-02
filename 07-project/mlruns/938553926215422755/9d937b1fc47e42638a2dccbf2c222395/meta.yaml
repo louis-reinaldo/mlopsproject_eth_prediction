@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/9d937b1fc47e42638a2dccbf2c222395/artifacts
+end_time: 1690378890756
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 9d937b1fc47e42638a2dccbf2c222395
+run_name: unleashed-hawk-163
+run_uuid: 9d937b1fc47e42638a2dccbf2c222395
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690378888897
+status: 3
+tags: []
+user_id: LouisReinaldo

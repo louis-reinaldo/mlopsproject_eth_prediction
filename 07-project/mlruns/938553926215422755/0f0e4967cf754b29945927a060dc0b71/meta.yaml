@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/0f0e4967cf754b29945927a060dc0b71/artifacts
+end_time: 1690378868836
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 0f0e4967cf754b29945927a060dc0b71
+run_name: honorable-skink-880
+run_uuid: 0f0e4967cf754b29945927a060dc0b71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690378866841
+status: 3
+tags: []
+user_id: LouisReinaldo

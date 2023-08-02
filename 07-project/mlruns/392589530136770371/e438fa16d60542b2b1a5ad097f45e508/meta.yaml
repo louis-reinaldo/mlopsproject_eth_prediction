@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/e438fa16d60542b2b1a5ad097f45e508/artifacts
+end_time: 1690304571054
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: e438fa16d60542b2b1a5ad097f45e508
+run_name: calm-dove-252
+run_uuid: e438fa16d60542b2b1a5ad097f45e508
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304570979
+status: 3
+tags: []
+user_id: LouisReinaldo

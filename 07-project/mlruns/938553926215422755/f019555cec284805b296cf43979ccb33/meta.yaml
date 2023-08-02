@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/f019555cec284805b296cf43979ccb33/artifacts
+end_time: 1690378870873
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: f019555cec284805b296cf43979ccb33
+run_name: big-dog-756
+run_uuid: f019555cec284805b296cf43979ccb33
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690378868844
+status: 3
+tags: []
+user_id: LouisReinaldo

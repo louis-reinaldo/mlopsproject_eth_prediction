@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/4aa54d8d93754ab8af609a573e6ca8eb/artifacts
+end_time: 1690384474348
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 4aa54d8d93754ab8af609a573e6ca8eb
+run_name: rare-panda-603
+run_uuid: 4aa54d8d93754ab8af609a573e6ca8eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384470380
+status: 3
+tags: []
+user_id: LouisReinaldo

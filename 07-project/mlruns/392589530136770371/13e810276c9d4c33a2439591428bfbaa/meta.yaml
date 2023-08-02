@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/13e810276c9d4c33a2439591428bfbaa/artifacts
+end_time: 1690304571873
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 13e810276c9d4c33a2439591428bfbaa
+run_name: abundant-mouse-157
+run_uuid: 13e810276c9d4c33a2439591428bfbaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304571793
+status: 3
+tags: []
+user_id: LouisReinaldo

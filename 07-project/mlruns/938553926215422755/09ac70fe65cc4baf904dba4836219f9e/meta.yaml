@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/09ac70fe65cc4baf904dba4836219f9e/artifacts
+end_time: 1690384214628
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 09ac70fe65cc4baf904dba4836219f9e
+run_name: bouncy-sow-465
+run_uuid: 09ac70fe65cc4baf904dba4836219f9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384210949
+status: 3
+tags: []
+user_id: LouisReinaldo

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/0fb5e7d9d69346acb476cabb8f95343b/artifacts
+end_time: 1690304514267
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 0fb5e7d9d69346acb476cabb8f95343b
+run_name: adorable-trout-885
+run_uuid: 0fb5e7d9d69346acb476cabb8f95343b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304514176
+status: 3
+tags: []
+user_id: LouisReinaldo

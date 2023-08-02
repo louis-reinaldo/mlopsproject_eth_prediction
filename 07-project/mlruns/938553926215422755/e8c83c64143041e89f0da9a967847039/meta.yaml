@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/e8c83c64143041e89f0da9a967847039/artifacts
+end_time: 1690379425706
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: e8c83c64143041e89f0da9a967847039
+run_name: mercurial-roo-272
+run_uuid: e8c83c64143041e89f0da9a967847039
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690379423787
+status: 3
+tags: []
+user_id: LouisReinaldo

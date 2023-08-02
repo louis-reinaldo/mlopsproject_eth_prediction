@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/2292f31a546a4e869d878e72c7bdc7cb/artifacts
+end_time: 1690379437878
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 2292f31a546a4e869d878e72c7bdc7cb
+run_name: capable-trout-275
+run_uuid: 2292f31a546a4e869d878e72c7bdc7cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690379435967
+status: 3
+tags: []
+user_id: LouisReinaldo

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/487be68ebc34405abc27f01a7a511ff0/artifacts
+end_time: 1690302083400
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 487be68ebc34405abc27f01a7a511ff0
+run_name: luminous-finch-210
+run_uuid: 487be68ebc34405abc27f01a7a511ff0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690302083373
+status: 4
+tags: []
+user_id: LouisReinaldo

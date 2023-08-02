@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/10236519bcf947c99042d7efc929a84c/artifacts
+end_time: 1690379443694
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 10236519bcf947c99042d7efc929a84c
+run_name: likeable-bird-280
+run_uuid: 10236519bcf947c99042d7efc929a84c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690379441803
+status: 3
+tags: []
+user_id: LouisReinaldo

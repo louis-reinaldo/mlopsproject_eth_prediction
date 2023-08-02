@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/93927842e8844a2f84baec86efb42910/artifacts
+end_time: 1690304571546
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 93927842e8844a2f84baec86efb42910
+run_name: persistent-vole-266
+run_uuid: 93927842e8844a2f84baec86efb42910
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304571438
+status: 3
+tags: []
+user_id: LouisReinaldo

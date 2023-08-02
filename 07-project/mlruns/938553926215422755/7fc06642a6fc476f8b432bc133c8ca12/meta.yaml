@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/7fc06642a6fc476f8b432bc133c8ca12/artifacts
+end_time: 1690380815289
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 7fc06642a6fc476f8b432bc133c8ca12
+run_name: grandiose-snail-121
+run_uuid: 7fc06642a6fc476f8b432bc133c8ca12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380813066
+status: 3
+tags: []
+user_id: LouisReinaldo

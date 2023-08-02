@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/dc46d90c9b4949b8b5059098fe1cf04c/artifacts
+end_time: 1690378885029
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: dc46d90c9b4949b8b5059098fe1cf04c
+run_name: sassy-newt-404
+run_uuid: dc46d90c9b4949b8b5059098fe1cf04c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690378883108
+status: 3
+tags: []
+user_id: LouisReinaldo

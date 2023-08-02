@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/7c3ee84b87c34eca88369e05ab265c32/artifacts
+end_time: 1690304513039
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 7c3ee84b87c34eca88369e05ab265c32
+run_name: resilient-foal-836
+run_uuid: 7c3ee84b87c34eca88369e05ab265c32
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304512954
+status: 3
+tags: []
+user_id: LouisReinaldo

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/cad5d46eb02341418ec619ce296b2112/artifacts
+end_time: 1690304514153
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: cad5d46eb02341418ec619ce296b2112
+run_name: marvelous-kite-335
+run_uuid: cad5d46eb02341418ec619ce296b2112
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304514076
+status: 3
+tags: []
+user_id: LouisReinaldo

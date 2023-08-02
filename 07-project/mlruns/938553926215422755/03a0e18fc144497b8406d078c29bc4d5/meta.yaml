@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/03a0e18fc144497b8406d078c29bc4d5/artifacts
+end_time: 1690378903923
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 03a0e18fc144497b8406d078c29bc4d5
+run_name: burly-finch-118
+run_uuid: 03a0e18fc144497b8406d078c29bc4d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690378901991
+status: 3
+tags: []
+user_id: LouisReinaldo

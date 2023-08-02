@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/95080b72fc214c4382758474d122a702/artifacts
+end_time: 1690384444616
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 95080b72fc214c4382758474d122a702
+run_name: valuable-shrike-502
+run_uuid: 95080b72fc214c4382758474d122a702
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384440656
+status: 3
+tags: []
+user_id: LouisReinaldo

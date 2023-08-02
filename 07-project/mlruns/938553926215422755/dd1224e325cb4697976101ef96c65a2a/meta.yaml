@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/dd1224e325cb4697976101ef96c65a2a/artifacts
+end_time: 1690379162715
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: dd1224e325cb4697976101ef96c65a2a
+run_name: gregarious-jay-539
+run_uuid: dd1224e325cb4697976101ef96c65a2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690379160815
+status: 3
+tags: []
+user_id: LouisReinaldo

@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/392589530136770371
+creation_time: 1690304570148
+experiment_id: '392589530136770371'
+last_update_time: 1690304570148
+lifecycle_stage: active
+name: mlops_zoomcamp_eth_prediction_hpo

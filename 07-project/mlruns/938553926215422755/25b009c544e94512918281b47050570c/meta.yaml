@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/25b009c544e94512918281b47050570c/artifacts
+end_time: 1690384482011
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 25b009c544e94512918281b47050570c
+run_name: fortunate-zebra-752
+run_uuid: 25b009c544e94512918281b47050570c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384478186
+status: 3
+tags: []
+user_id: LouisReinaldo

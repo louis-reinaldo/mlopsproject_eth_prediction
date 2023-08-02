@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/5cd4c21458aa458ab9712724d5c1385c/artifacts
+end_time: 1690379423777
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 5cd4c21458aa458ab9712724d5c1385c
+run_name: gregarious-swan-386
+run_uuid: 5cd4c21458aa458ab9712724d5c1385c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690379421882
+status: 3
+tags: []
+user_id: LouisReinaldo

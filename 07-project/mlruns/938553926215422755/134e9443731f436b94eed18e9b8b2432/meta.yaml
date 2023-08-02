@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/134e9443731f436b94eed18e9b8b2432/artifacts
+end_time: 1690380897808
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 134e9443731f436b94eed18e9b8b2432
+run_name: funny-doe-775
+run_uuid: 134e9443731f436b94eed18e9b8b2432
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380895762
+status: 3
+tags: []
+user_id: LouisReinaldo

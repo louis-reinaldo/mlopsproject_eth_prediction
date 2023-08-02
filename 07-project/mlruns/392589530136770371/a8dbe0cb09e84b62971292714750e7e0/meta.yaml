@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/a8dbe0cb09e84b62971292714750e7e0/artifacts
+end_time: 1690377892496
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: a8dbe0cb09e84b62971292714750e7e0
+run_name: omniscient-lark-896
+run_uuid: a8dbe0cb09e84b62971292714750e7e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377892454
+status: 3
+tags: []
+user_id: LouisReinaldo

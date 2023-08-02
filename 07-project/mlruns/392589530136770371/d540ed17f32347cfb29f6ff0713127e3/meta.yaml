@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/d540ed17f32347cfb29f6ff0713127e3/artifacts
+end_time: 1690377891743
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: d540ed17f32347cfb29f6ff0713127e3
+run_name: bustling-smelt-836
+run_uuid: d540ed17f32347cfb29f6ff0713127e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377891668
+status: 3
+tags: []
+user_id: LouisReinaldo

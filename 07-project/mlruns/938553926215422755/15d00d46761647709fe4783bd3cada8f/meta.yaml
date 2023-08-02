@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/15d00d46761647709fe4783bd3cada8f/artifacts
+end_time: 1690380873598
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 15d00d46761647709fe4783bd3cada8f
+run_name: defiant-penguin-989
+run_uuid: 15d00d46761647709fe4783bd3cada8f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380871573
+status: 3
+tags: []
+user_id: LouisReinaldo

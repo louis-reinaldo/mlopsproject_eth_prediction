@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905541258930288946/4ea6e9cdd98c4552b85684efc279dd8b/artifacts
+end_time: 1690303576758
+entry_point_name: ''
+experiment_id: '905541258930288946'
+lifecycle_stage: active
+run_id: 4ea6e9cdd98c4552b85684efc279dd8b
+run_name: marvelous-goat-230
+run_uuid: 4ea6e9cdd98c4552b85684efc279dd8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690303573142
+status: 3
+tags: []
+user_id: LouisReinaldo

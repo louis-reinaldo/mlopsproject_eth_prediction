@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/1b20f6f7bad7400ebbc3d81138b1ac3d/artifacts
+end_time: 1690379166809
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 1b20f6f7bad7400ebbc3d81138b1ac3d
+run_name: indecisive-wasp-353
+run_uuid: 1b20f6f7bad7400ebbc3d81138b1ac3d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690379164720
+status: 3
+tags: []
+user_id: LouisReinaldo

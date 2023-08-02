@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/8a753a61360d4cacaa701bac58c9bc58/artifacts
+end_time: 1690380794622
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 8a753a61360d4cacaa701bac58c9bc58
+run_name: wise-lark-804
+run_uuid: 8a753a61360d4cacaa701bac58c9bc58
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380792757
+status: 3
+tags: []
+user_id: LouisReinaldo

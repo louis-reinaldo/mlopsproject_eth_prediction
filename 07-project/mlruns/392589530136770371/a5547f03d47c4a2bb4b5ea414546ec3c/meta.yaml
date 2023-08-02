@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/a5547f03d47c4a2bb4b5ea414546ec3c/artifacts
+end_time: 1690304570380
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: a5547f03d47c4a2bb4b5ea414546ec3c
+run_name: skittish-dove-560
+run_uuid: a5547f03d47c4a2bb4b5ea414546ec3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304570335
+status: 3
+tags: []
+user_id: LouisReinaldo

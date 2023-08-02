@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/a7b35de48f3f45aba6b1a50a3ba89ea0/artifacts
+end_time: 1690378900005
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: a7b35de48f3f45aba6b1a50a3ba89ea0
+run_name: unique-sow-155
+run_uuid: a7b35de48f3f45aba6b1a50a3ba89ea0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690378897432
+status: 3
+tags: []
+user_id: LouisReinaldo

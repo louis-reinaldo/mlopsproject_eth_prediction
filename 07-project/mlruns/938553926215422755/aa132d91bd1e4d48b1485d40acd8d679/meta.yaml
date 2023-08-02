@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/aa132d91bd1e4d48b1485d40acd8d679/artifacts
+end_time: 1690304513306
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: aa132d91bd1e4d48b1485d40acd8d679
+run_name: industrious-frog-669
+run_uuid: aa132d91bd1e4d48b1485d40acd8d679
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304513257
+status: 3
+tags: []
+user_id: LouisReinaldo

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/c381369d779c4d938d1a78dc0522cff7/artifacts
+end_time: 1690384461377
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: c381369d779c4d938d1a78dc0522cff7
+run_name: charming-duck-953
+run_uuid: c381369d779c4d938d1a78dc0522cff7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384455729
+status: 3
+tags: []
+user_id: LouisReinaldo

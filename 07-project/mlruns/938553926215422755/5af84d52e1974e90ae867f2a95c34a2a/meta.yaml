@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/5af84d52e1974e90ae867f2a95c34a2a/artifacts
+end_time: 1690304514056
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 5af84d52e1974e90ae867f2a95c34a2a
+run_name: bold-bear-283
+run_uuid: 5af84d52e1974e90ae867f2a95c34a2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304513981
+status: 3
+tags: []
+user_id: LouisReinaldo

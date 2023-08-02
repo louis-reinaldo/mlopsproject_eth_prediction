@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/36d4505e8f40413d8afe8fea355bf53c/artifacts
+end_time: 1690304570854
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 36d4505e8f40413d8afe8fea355bf53c
+run_name: able-hog-514
+run_uuid: 36d4505e8f40413d8afe8fea355bf53c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304570797
+status: 3
+tags: []
+user_id: LouisReinaldo

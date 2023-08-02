@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/06c19bdddb9e4182920e05ad58e631f7/artifacts
+end_time: 1690384266412
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 06c19bdddb9e4182920e05ad58e631f7
+run_name: victorious-frog-990
+run_uuid: 06c19bdddb9e4182920e05ad58e631f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690384262339
+status: 3
+tags: []
+user_id: LouisReinaldo

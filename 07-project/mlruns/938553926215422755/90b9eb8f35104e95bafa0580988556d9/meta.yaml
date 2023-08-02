@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/90b9eb8f35104e95bafa0580988556d9/artifacts
+end_time: 1690379143754
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 90b9eb8f35104e95bafa0580988556d9
+run_name: abundant-trout-999
+run_uuid: 90b9eb8f35104e95bafa0580988556d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690379141896
+status: 3
+tags: []
+user_id: LouisReinaldo

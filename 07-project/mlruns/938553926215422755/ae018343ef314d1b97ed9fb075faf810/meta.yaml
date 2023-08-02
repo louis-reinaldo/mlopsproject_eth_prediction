@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/ae018343ef314d1b97ed9fb075faf810/artifacts
+end_time: 1690378879195
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: ae018343ef314d1b97ed9fb075faf810
+run_name: clumsy-wolf-734
+run_uuid: ae018343ef314d1b97ed9fb075faf810
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690378877276
+status: 3
+tags: []
+user_id: LouisReinaldo

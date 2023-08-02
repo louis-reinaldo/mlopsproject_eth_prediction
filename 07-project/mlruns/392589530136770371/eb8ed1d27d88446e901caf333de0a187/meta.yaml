@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/eb8ed1d27d88446e901caf333de0a187/artifacts
+end_time: 1690377961764
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: eb8ed1d27d88446e901caf333de0a187
+run_name: traveling-skunk-149
+run_uuid: eb8ed1d27d88446e901caf333de0a187
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377961672
+status: 3
+tags: []
+user_id: LouisReinaldo

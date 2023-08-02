@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/863bf5e63b034ea1945ecc28fdea8e34/artifacts
+end_time: 1690380905902
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 863bf5e63b034ea1945ecc28fdea8e34
+run_name: carefree-pug-183
+run_uuid: 863bf5e63b034ea1945ecc28fdea8e34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380903956
+status: 3
+tags: []
+user_id: LouisReinaldo

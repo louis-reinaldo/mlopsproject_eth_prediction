@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/0aa78459723145dea06ca5e8f511b143/artifacts
+end_time: 1690377892341
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: 0aa78459723145dea06ca5e8f511b143
+run_name: aged-swan-460
+run_uuid: 0aa78459723145dea06ca5e8f511b143
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377892283
+status: 3
+tags: []
+user_id: LouisReinaldo

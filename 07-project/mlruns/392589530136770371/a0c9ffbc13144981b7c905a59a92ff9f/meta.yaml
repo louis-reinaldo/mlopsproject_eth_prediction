@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/a0c9ffbc13144981b7c905a59a92ff9f/artifacts
+end_time: 1690304570955
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: a0c9ffbc13144981b7c905a59a92ff9f
+run_name: nebulous-elk-621
+run_uuid: a0c9ffbc13144981b7c905a59a92ff9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690304570907
+status: 3
+tags: []
+user_id: LouisReinaldo

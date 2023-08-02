@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/76a2d68bde2546209a68672efcedbd90/artifacts
+end_time: 1690380801436
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 76a2d68bde2546209a68672efcedbd90
+run_name: sassy-midge-507
+run_uuid: 76a2d68bde2546209a68672efcedbd90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380798831
+status: 3
+tags: []
+user_id: LouisReinaldo

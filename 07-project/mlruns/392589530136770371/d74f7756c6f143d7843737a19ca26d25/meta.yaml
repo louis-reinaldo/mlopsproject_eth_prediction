@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/d74f7756c6f143d7843737a19ca26d25/artifacts
+end_time: 1690377892784
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: d74f7756c6f143d7843737a19ca26d25
+run_name: valuable-quail-412
+run_uuid: d74f7756c6f143d7843737a19ca26d25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377892731
+status: 3
+tags: []
+user_id: LouisReinaldo

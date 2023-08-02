@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/938553926215422755/8582f67df9ec48dd89412aeb8080272f/artifacts
+end_time: 1690380788731
+entry_point_name: ''
+experiment_id: '938553926215422755'
+lifecycle_stage: active
+run_id: 8582f67df9ec48dd89412aeb8080272f
+run_name: skillful-whale-36
+run_uuid: 8582f67df9ec48dd89412aeb8080272f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690380786677
+status: 3
+tags: []
+user_id: LouisReinaldo

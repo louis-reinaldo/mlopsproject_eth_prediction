@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/392589530136770371/f047e0a4b52142fe82fa3a5437e6a160/artifacts
+end_time: 1690377962632
+entry_point_name: ''
+experiment_id: '392589530136770371'
+lifecycle_stage: active
+run_id: f047e0a4b52142fe82fa3a5437e6a160
+run_name: thundering-flea-347
+run_uuid: f047e0a4b52142fe82fa3a5437e6a160
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690377962588
+status: 3
+tags: []
+user_id: LouisReinaldo
