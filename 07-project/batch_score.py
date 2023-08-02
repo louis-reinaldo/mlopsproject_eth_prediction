@@ -1,24 +1,28 @@
-from utils import load_data
-from hpo import hpo_flow
-from register_model import register_model_flow
-
-from prefect import flow, task, get_run_logger
-import mlflow
-from mlflow.tracking import MlflowClient
-from evidently.report import Report
-from evidently import ColumnMapping
-from evidently.metrics import ColumnDriftMetric, DatasetDriftMetric, DatasetMissingValuesMetric, ColumnQuantileMetric
-from evidently.metrics.base_metric import generate_column_metrics
-from evidently.metric_preset import DataDriftPreset, TargetDriftPreset
-from prefect.artifacts import create_markdown_artifact
-
-from sklearn.metrics import mean_squared_error
-import pandas as pd
-
-from pathlib import Path
 import os
 import pickle
+from pathlib import Path
 from datetime import date
+
+import mlflow
+import pandas as pd
+from prefect import flow, task, get_run_logger
+from evidently import ColumnMapping
+from mlflow.tracking import MlflowClient
+from sklearn.metrics import mean_squared_error
+from evidently.report import Report
+from evidently.metrics import (
+    ColumnDriftMetric,
+    DatasetDriftMetric,
+    ColumnQuantileMetric,
+    DatasetMissingValuesMetric
+)
+from prefect.artifacts import create_markdown_artifact
+from evidently.metric_preset import DataDriftPreset, TargetDriftPreset
+from evidently.metrics.base_metric import generate_column_metrics
+
+from hpo import hpo_flow
+from utils import load_data
+from register_model import register_model_flow
 
 SYMBOL = 'ETH-USD'
 TEST_START_DATE = os.getenv('TEST_START_DATE', '2023-07-25')
@@ -35,7 +39,7 @@ def load_model():
             model_uri = file.read()
 
         print(f"Load model for prediction with model_uri as: {model_uri}")
-        model = mlflow.sklearn.load_model(model_uri = model_uri)
+        model = mlflow.sklearn.load_model(model_uri=model_uri)
 
     except:
         print('Unable to connect to Mlflow Tracking Server')
@@ -43,25 +47,26 @@ def load_model():
             model = pickle.load(f)
     return model
 
+
 @task
-def prepare_data_monitoring_report(numeric_features, target = None):
-   
+def prepare_data_monitoring_report(numeric_features, target=None):
     column_mapping = ColumnMapping(
-    prediction = 'prediction',
-    numerical_features=numeric_features,
-    target = target
+        prediction='prediction', numerical_features=numeric_features, target=target
     )
 
-    report = Report(metrics = [
-    ColumnDriftMetric(column_name='prediction'),
-    DataDriftPreset(),
-    DatasetMissingValuesMetric(),
-    ColumnQuantileMetric('SMA', quantile = 0.5)
-    ])
+    report = Report(
+        metrics=[
+            ColumnDriftMetric(column_name='prediction'),
+            DataDriftPreset(),
+            DatasetMissingValuesMetric(),
+            ColumnQuantileMetric('SMA', quantile=0.5),
+        ]
+    )
 
     return column_mapping, report
 
-@task 
+
+@task
 def prepare_current_future_data():
     future_actual_df = load_data(SYMBOL, TEST_START_DATE).dropna()
     future_actual_df.index = future_actual_df.index.strftime('%Y-%m-%d')
@@ -99,17 +104,27 @@ def score():
 
     logger.info('Getting RMSE')
 
-    val_rmse = mean_squared_error(reference_data['Close'], reference_data['prediction'], squared=False)
+    val_rmse = mean_squared_error(
+        reference_data['Close'], reference_data['prediction'], squared=False
+    )
     logger.info(f'Validation RMSE: {val_rmse} ')
 
-    test_rmse = mean_squared_error(current_data['Close'], current_data['prediction'], squared=False)
+    test_rmse = mean_squared_error(
+        current_data['Close'], current_data['prediction'], squared=False
+    )
     logger.info(f'Test RMSE: {test_rmse} ')
 
     logger.info(f'Preparing Evidently Report')
-    column_mapping, evidently_report = prepare_data_monitoring_report(list(X_test.columns), target = 'Close')
+    column_mapping, evidently_report = prepare_data_monitoring_report(
+        list(X_test.columns), target='Close'
+    )
 
     logger.info(f'Calculating Data Drift')
-    evidently_report.run(reference_data = reference_data.reset_index(), current_data = current_data.reset_index(), column_mapping=column_mapping)
+    evidently_report.run(
+        reference_data=reference_data.reset_index(),
+        current_data=current_data.reset_index(),
+        column_mapping=column_mapping,
+    )
 
     evidently_report.save_html("report.html")
     result = evidently_report.as_dict()
@@ -138,24 +153,25 @@ def score():
     | Num Drifted Columns | {num_drifted_columns} |
     """
     create_markdown_artifact(
-            key="eth-prediction-model-report", markdown= markdown__model_report
-        )
-    
+        key="eth-prediction-model-report", markdown=markdown__model_report
+    )
 
     logger.info(f'Saving featurised future data with prediction')
     current_data.to_parquet('data/future_data_with_prediction.parquet')
 
     ##logic to trigger retraining
     prediction_drift_thres = 0.003
+    print(f'prediction_drift: {prediction_drift}')
     if prediction_drift > prediction_drift_thres:
-        logger.info(f'Prediction Drift is {prediction_drift_thres},  more than {prediction_drift_thres}. Model retraining triggered')
+        logger.info(
+            f'Prediction Drift is {prediction_drift_thres},  more than {prediction_drift_thres}. Model retraining triggered'
+        )
         hpo_flow()
         logger.info('Registering new model')
         register_model_flow()
 
     return result
 
-    
+
 if __name__ == '__main__':
     score()
-

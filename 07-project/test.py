@@ -1,7 +1,8 @@
-from utils import load_data
-import requests
 import os
 
+import requests
+
+from utils import load_data
 
 SYMBOL = 'ETH-USD'
 # TEST_START_DATE = '2023-07-25' #need to figure out how to let user
@@ -14,13 +15,8 @@ future_actual_data = future_actual_df.to_dict()
 # print(future_actual_data)
 
 url = 'http://localhost:9696/predict'
-response = requests.post(url, json = future_actual_data)
+response = requests.post(url, json=future_actual_data)
 print(response.json())
-
-
-
-
-
 
 
 # if __name__ == '__main__':

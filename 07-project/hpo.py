@@ -1,16 +1,14 @@
-from utils import split_xy, read_data
-from prefect import flow, task, get_run_logger
-
 import mlflow
-from mlflow.tracking import MlflowClient
+import optuna
+from prefect import flow, task, get_run_logger
 from mlflow.entities import ViewType
+from mlflow.tracking import MlflowClient
+from optuna.samplers import TPESampler
+from sklearn.metrics import mean_squared_error
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.feature_extraction import DictVectorizer
-from sklearn.metrics import mean_squared_error
-import optuna
-from optuna.samplers import TPESampler
-from sklearn.ensemble import RandomForestRegressor
 
+from utils import split_xy, read_data
 
 MLFLOW_TRACKING_URI = "sqlite:///mlflow.db"
 COL_NAMES = ['SMA', 'EMA', 'MACD', 'RSI', 'UpperBB', 'LowerBB', 'Close']
@@ -21,6 +19,7 @@ mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
 mlflow.set_experiment(HPO_EXPERIMENT_NAME)
 mlflow.sklearn.autolog()
 
+
 def objective(trial, X_train, y_train, X_val, y_val):
     params = {
         'n_estimators': trial.suggest_int('n_estimators', 10, 50, 1),
@@ -28,7 +27,7 @@ def objective(trial, X_train, y_train, X_val, y_val):
         'min_samples_split': trial.suggest_int('min_samples_split', 2, 10, 1),
         'min_samples_leaf': trial.suggest_int('min_samples_leaf', 1, 4, 1),
         'random_state': 42,
-        'n_jobs': -1
+        'n_jobs': -1,
     }
     with mlflow.start_run():
         mlflow.log_params(params)
@@ -41,19 +40,22 @@ def objective(trial, X_train, y_train, X_val, y_val):
 
     return rmse
 
-@task(log_prints = True)
-def run_optimization(train, val, test, num_trials):    
 
+@task(log_prints=True)
+def run_optimization(train, val, test, num_trials):
     """Use Optuna to run through hyperparameter search space"""
     X_train, y_train, X_val, y_val = split_xy(train, val)
 
     sampler = TPESampler(seed=42)
     study = optuna.create_study(direction="minimize", sampler=sampler)
-    study.optimize(lambda trial: objective(trial, X_train, y_train, X_val, y_val), n_trials=num_trials)
+    study.optimize(
+        lambda trial: objective(trial, X_train, y_train, X_val, y_val),
+        n_trials=num_trials,
+    )
+
 
 @flow(retries=3, retry_delay_seconds=5)
 def hpo_flow():
-
     """Main flow for Hyperparameter optimization"""
 
     logger = get_run_logger()

@@ -1,6 +1,8 @@
-import utils
-from prefect import flow, task, get_run_logger
 import os
+
+from prefect import flow, task, get_run_logger
+
+import utils
 
 DEPENDENT_VARIABLE_NAME = 'Close'
 SYMBOL = 'ETH-USD'
@@ -11,12 +13,12 @@ TEST_START_DATE = os.getenv('TEST_START_DATE', '2023-07-25')
 COL_NAMES = ['SMA', 'EMA', 'MACD', 'RSI', 'UpperBB', 'LowerBB', 'Close']
 
 
-
 @task
 def download_data_from_yahoo(SYMBOL, TRAINING_START_DATE):
     # logger.info('load data from yfinance')
     asset_df = utils.load_data(SYMBOL, TRAINING_START_DATE)
     return asset_df
+
 
 @task
 def create_ta_features(asset_df, DEPENDENT_VARIABLE_NAME):
@@ -24,16 +26,23 @@ def create_ta_features(asset_df, DEPENDENT_VARIABLE_NAME):
     asset_df = utils.create_features(asset_df, DEPENDENT_VARIABLE_NAME)
     return asset_df
 
+
 @task
-def split_feature_data(asset_df, VALIDATION_START_DATE, TEST_START_DATE, DEPENDENT_VARIABLE_NAME):
+def split_feature_data(
+    asset_df, VALIDATION_START_DATE, TEST_START_DATE, DEPENDENT_VARIABLE_NAME
+):
     # logger.info('split to training, validation, test')
-    train_df, val_df, test_df = utils.split_data(asset_df, VALIDATION_START_DATE, TEST_START_DATE, DEPENDENT_VARIABLE_NAME)
+    train_df, val_df, test_df = utils.split_data(
+        asset_df, VALIDATION_START_DATE, TEST_START_DATE, DEPENDENT_VARIABLE_NAME
+    )
     return train_df, val_df, test_df
+
 
 @task
 def save_feature_data(train_df, val_df, test_df):
     # logger.info('saving data')
     utils.save_data(train_df, val_df, test_df)
+
 
 @flow(retries=3, retry_delay_seconds=5)
 def data_preparation():
@@ -43,7 +52,9 @@ def data_preparation():
     logger.info('creating technical indicators as features')
     asset_df = create_ta_features(asset_df, DEPENDENT_VARIABLE_NAME)
     logger.info('split to training, validation, test')
-    train_df, val_df, test_df = split_feature_data(asset_df, VALIDATION_START_DATE, TEST_START_DATE, DEPENDENT_VARIABLE_NAME)
+    train_df, val_df, test_df = split_feature_data(
+        asset_df, VALIDATION_START_DATE, TEST_START_DATE, DEPENDENT_VARIABLE_NAME
+    )
     logger.info('saving data')
     save_feature_data(train_df, val_df, test_df)
 

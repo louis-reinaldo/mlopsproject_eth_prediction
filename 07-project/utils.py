@@ -1,7 +1,8 @@
-import yfinance as yf
-import pandas as pd
-from datetime import datetime, timedelta
 from pathlib import Path
+from datetime import datetime, timedelta
+
+import pandas as pd
+import yfinance as yf
 
 # Create the directory if it doesn't exist
 
@@ -12,27 +13,29 @@ def load_data(symbol, start_date):
     df = yf.download(symbol, start=start_date, end=end_date.strftime('%Y-%m-%d'))
 
     # Fill future dates with NaN
-    future_dates = pd.date_range(start=df.index[-1]+timedelta(days=1), end=end_date)
+    future_dates = pd.date_range(start=df.index[-1] + timedelta(days=1), end=end_date)
     future_df = pd.DataFrame(index=future_dates)
     df = pd.concat([df, future_df], axis=0)
 
     return df
+
 
 def split_data(df, validation_start_date, test_start_date, y_col_name):
     """Split data into train, validation and test sets."""
     train = df[df.index < validation_start_date]
     validation = df[(df.index >= validation_start_date) & (df.index < test_start_date)]
     test = df[df.index >= test_start_date]
-    #test.drop(y_col_name, axis =1, inplace = True)
+    # test.drop(y_col_name, axis =1, inplace = True)
     return train, validation, test
 
+
 def save_data(train, validation, test):
-    """ Save datasets to parquet files """
+    """Save datasets to parquet files"""
     Path('data').mkdir(exist_ok=True)
     train.to_parquet('data/train.parquet')
     validation.to_parquet('data/validation.parquet')
     test.to_parquet('data/test.parquet')
-    
+
 
 def read_data(column_names):
     """Read train, validation and test data from parquet files."""
@@ -42,11 +45,12 @@ def read_data(column_names):
 
     return train[column_names], validation[column_names], test[column_names]
 
+
 def fill_future_dates(df, column):
     """Fill future dates with a rolling average of the last known 30 days"""
     last_known_index = df[column].last_valid_index()
     for i in range(1, df.loc[last_known_index:].shape[0]):
-        last_30_days_avg = df[column].iloc[-(30+i):-i].mean()
+        last_30_days_avg = df[column].iloc[-(30 + i) : -i].mean()
         df[column].iloc[-i] = last_30_days_avg
     return df
 
@@ -73,6 +77,7 @@ def add_SMA(df, column, window=20):
     df = fill_future_dates(df, 'SMA')
     return df
 
+
 def add_RSI(df, column, window=14):
     """Add Relative Strength Index (RSI)"""
     change = df[column].diff()
@@ -85,15 +90,23 @@ def add_RSI(df, column, window=14):
     df = fill_future_dates(df, 'RSI')
     return df
 
+
 def add_BollingerBands(df, column, window=20):
     """Add Bollinger Bands (upperBB, lowerBB)"""
-    df['UpperBB'] = df[column].rolling(window=window).mean() + df[column].rolling(window=window).std() * 2
-    df['LowerBB'] = df[column].rolling(window=window).mean() - df[column].rolling(window=window).std() * 2
+    df['UpperBB'] = (
+        df[column].rolling(window=window).mean()
+        + df[column].rolling(window=window).std() * 2
+    )
+    df['LowerBB'] = (
+        df[column].rolling(window=window).mean()
+        - df[column].rolling(window=window).std() * 2
+    )
     for band in ['UpperBB', 'LowerBB']:
         df = fill_future_dates(df, band)
     return df
 
-#Main function to preprocess the data
+
+# Main function to preprocess the data
 def create_features(df, column):
     """Combine all Technical Indicators features"""
     df = add_SMA(df, column)
@@ -103,6 +116,7 @@ def create_features(df, column):
     df = add_BollingerBands(df, column)
     return df[['SMA', 'EMA', 'MACD', 'RSI', 'UpperBB', 'LowerBB', 'Close']]
 
+
 def split_xy(train, val):
     """Split training and validation data to X and y"""
     train = train.dropna()
@@ -111,7 +125,7 @@ def split_xy(train, val):
 
     X_val = val.drop('Close', axis=1)
     y_val = val['Close']
-    
+
     # X_test = test.drop('Close', axis=1)
 
     return X_train, y_train, X_val, y_val

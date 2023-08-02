@@ -1,20 +1,26 @@
-from utils import split_xy, read_data
+import pickle
 
 import mlflow
-from mlflow.tracking import MlflowClient
+from prefect import flow, task, get_run_logger
 from mlflow.entities import ViewType
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.feature_extraction import DictVectorizer
+from mlflow.tracking import MlflowClient
 from sklearn.metrics import mean_squared_error
 from sklearn.ensemble import RandomForestRegressor
-import pickle
-from prefect import flow, task, get_run_logger
 from prefect.artifacts import create_markdown_artifact
+from sklearn.feature_extraction import DictVectorizer
 
+from utils import split_xy, read_data
 
 EXPERIMENT_NAME = "mlops_zoomcamp_eth_prediction"
 HPO_EXPERIMENT_NAME = "mlops_zoomcamp_eth_prediction_hpo"
-RF_PARAMS = ['max_depth', 'n_estimators', 'min_samples_split', 'min_samples_leaf', 'random_state', 'n_jobs']
+RF_PARAMS = [
+    'max_depth',
+    'n_estimators',
+    'min_samples_split',
+    'min_samples_leaf',
+    'random_state',
+    'n_jobs',
+]
 BEST_MODEL_NAME = "rf-best-model-eth-prediction"
 STAGE = 'PRODUCTION'
 COL_NAMES = ['SMA', 'EMA', 'MACD', 'RSI', 'UpperBB', 'LowerBB', 'Close']
@@ -25,9 +31,9 @@ mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
 mlflow.set_experiment(EXPERIMENT_NAME)
 mlflow.sklearn.autolog()
 
+
 @task
 def train_and_log_model(X_train, y_train, X_val, y_val, params):
-    
     with mlflow.start_run():
         for param in RF_PARAMS:
             params[param] = int(params[param])
@@ -37,17 +43,17 @@ def train_and_log_model(X_train, y_train, X_val, y_val, params):
         # evaluate model on the validation and test sets
         valid_rmse = mean_squared_error(y_val, rf.predict(X_val), squared=False)
         mlflow.log_metric("valid_rmse", valid_rmse)
-        
+
+
 @task
 def register_model(train, val, top_n):
-    
     X_train, y_train, X_val, y_val = split_xy(train, val)
-    
+
     data_dict = {
-    "X_train": X_train,
-    "y_train": y_train,
-    "X_val": X_val,
-    "y_val": y_val,
+        "X_train": X_train,
+        "y_train": y_train,
+        "X_val": X_val,
+        "y_val": y_val,
     }
 
     # Iterate over the dictionary and save each item
@@ -74,7 +80,7 @@ def register_model(train, val, top_n):
         experiment_ids=experiment.experiment_id,
         run_view_type=ViewType.ACTIVE_ONLY,
         max_results=top_n,
-        order_by=["metrics.test_rmse ASC"]
+        order_by=["metrics.test_rmse ASC"],
     )[0]
 
     # Register the best model
@@ -88,13 +94,13 @@ def register_model(train, val, top_n):
         name=BEST_MODEL_NAME,
         version=model_version,
         stage=STAGE,
-        archive_existing_versions=False
+        archive_existing_versions=False,
     )
     return model_uri
 
+
 @flow(retries=3, retry_delay_seconds=5)
 def register_model_flow():
-
     """Save to model registry and save to pickle as backup"""
 
     client = MlflowClient(tracking_uri=MLFLOW_TRACKING_URI)
@@ -116,26 +122,24 @@ def register_model_flow():
 
     logger.info(f'model registered with model uri: {model_uri}')
     logger.info("loading model from mlflow")
-    model = mlflow.sklearn.load_model(model_uri= model_uri)
+    model = mlflow.sklearn.load_model(model_uri=model_uri)
     params = model.get_params()
     mlflow.log_params(params)
 
-    #logger.info(f"parameters for best model: {params}")
+    # logger.info(f"parameters for best model: {params}")
 
     logger.info(f"saving parameters for best model into artefacts")
-    
+
     params_markdown = "# Best Model Parameters\n\n"
     for key, value in params.items():
         params_markdown += f"| {key} | {value} |\n"
     params_markdown += "\n"
 
-    create_markdown_artifact(
-        key="best-model-parameters", markdown=params_markdown
-    )
+    create_markdown_artifact(key="best-model-parameters", markdown=params_markdown)
 
     logger.info(f"saving model as {BEST_MODEL_NAME}.pkl")
 
-    run_id = model_uri.split("/")[1] 
+    run_id = model_uri.split("/")[1]
     run = client.get_run(run_id)
     metrics = run.data.metrics
     rmse = metrics.get('rmse')
@@ -146,9 +150,6 @@ def register_model_flow():
     with open(f'model/{BEST_MODEL_NAME}.pkl', 'wb') as f:
         pickle.dump(model, f)
 
+
 if __name__ == '__main__':
     register_model_flow()
-    
-        
-        
-
